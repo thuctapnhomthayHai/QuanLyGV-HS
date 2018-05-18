@@ -40,10 +40,10 @@
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hướngDẫnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -121,7 +121,7 @@
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
             // 
             // hướngDẫnToolStripMenuItem
@@ -142,23 +142,14 @@
             this.panel1.Size = new System.Drawing.Size(449, 376);
             this.panel1.TabIndex = 1;
             // 
-            // button1
+            // button4
             // 
-            this.button1.Location = new System.Drawing.Point(52, 42);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 96);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Quản lí học sinh";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(286, 42);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 96);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Thời Khóa biểu";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(286, 182);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(114, 92);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Hướng dẫn";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -169,14 +160,24 @@
             this.button3.Text = "Quản lí giáo viên";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // button2
             // 
-            this.button4.Location = new System.Drawing.Point(286, 182);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 92);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Hướng dẫn";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(286, 42);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 96);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Thời Khóa biểu";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(52, 42);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 96);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Quản lí học sinh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmMain
             // 
