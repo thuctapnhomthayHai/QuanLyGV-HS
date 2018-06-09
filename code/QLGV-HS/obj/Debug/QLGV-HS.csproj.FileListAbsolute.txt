@@ -10,3 +10,13 @@ D:\Kỳ 6\Thực tập nhóm_TH14\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.pdb
 D:\Kỳ 6\Thực tập nhóm_TH14\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.exe
 D:\Kỳ 6\Thực tập nhóm_TH14\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.pdb
 D:\Kỳ 6\Thực tập nhóm_TH14\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.GUI.QuanLyHocSinh.resources
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.exe.config
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.exe
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.pdb
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csprojResolveAssemblyReference.cache
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmDangNhap.resources
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmGiaoVien.resources
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.FrmMain.resources
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.GUI.QuanLyHocSinh.resources
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.Properties.Resources.resources
+D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csproj.GenerateResource.Cache

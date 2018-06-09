@@ -23,5 +23,11 @@ namespace QLGV_HS
             QuanLyHocSinh hs = new QuanLyHocSinh();
             hs.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmGiaoVien GV = new frmGiaoVien();
+            GV.Show();
+        }
     }
 }

@@ -115,7 +115,7 @@
             this.tàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.đăngXuấtToolStripMenuItem});
             this.tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
-            this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.tàiKhoảnToolStripMenuItem.Text = "Tài Khoản";
             // 
             // đăngXuấtToolStripMenuItem
@@ -159,6 +159,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Quản lí giáo viên";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
