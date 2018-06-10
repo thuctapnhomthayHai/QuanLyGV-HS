@@ -87,7 +87,7 @@ namespace QLGV_HS.GUI
         {
             txtMaHS.Text = "";
             txtTenHS.Text = "";
-            txtGT.Text = "";
+            cbxGT.Text = "";
             dtNS.Text = "";
             txtDT.Text = "";
             txtMaLop.Text = "";
@@ -118,10 +118,10 @@ namespace QLGV_HS.GUI
                 txtTenHS.Focus();
                 return;
             }
-            if (txtGT.Text.Trim().Length == 0)
+            if (cbxGT.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Bạn phải nhập giới tính", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtGT.Focus();
+                cbxGT.Focus();
                 return;
             }
             if (dtNS.Text == "")
@@ -145,7 +145,7 @@ namespace QLGV_HS.GUI
 
 
             sql = "UPDATE HocSinh SET  TenHS=N'" + txtTenHS.Text.Trim().ToString() +
-                    "',GioiTinh=N'" + txtGT.Text.Trim().ToString() +
+                    "',GioiTinh=N'" + cbxGT.Text.Trim().ToString() +
                     "',NgaySinh='" + dtNS.Text.ToString() +
                     "',DanToc=N'" + txtDT.Text.Trim().ToString() +
                     "',MaLop=N'" + txtMaLop.Text.Trim().ToString() +
@@ -195,10 +195,10 @@ namespace QLGV_HS.GUI
                 txtTenHS.Focus();
                 return;
             }
-            if (txtGT.Text.Trim().Length == 0)
+            if (cbxGT.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Bạn phải nhập địa chỉ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtGT.Focus();
+                cbxGT.Focus();
                 return;
             }
             if (dtNS.Text.Trim().Length == 0)
@@ -230,7 +230,7 @@ namespace QLGV_HS.GUI
                 txtMaHS.Text = "";
                 return;
             }
-            sql = "INSERT INTO HocSinh(MaHS,TenHS, GioiTinh,NgaySinh,DanToc,MaLop) VALUES (N'" + txtMaHS.Text.Trim() + "',N'" + txtTenHS.Text.Trim() + "',N'" + txtGT.Text.Trim() + "','" + dtNS.Text + "',N'" + txtDT.Text.Trim() + "',N'" + txtMaLop.Text.Trim() + "')";
+            sql = "INSERT INTO HocSinh(MaHS,TenHS, GioiTinh,NgaySinh,DanToc,MaLop) VALUES (N'" + txtMaHS.Text.Trim() + "',N'" + txtTenHS.Text.Trim() + "',N'" + cbxGT.Text.Trim() + "','" + dtNS.Text + "',N'" + txtDT.Text.Trim() + "',N'" + txtMaLop.Text.Trim() + "')";
             DataAccess.RunSQL(sql);
             LoadDataGridView();
             ResetValues();
@@ -280,6 +280,63 @@ namespace QLGV_HS.GUI
                 }
 
             }
+        }
+
+        private void txtMaHS_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaHS_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtTenHS_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtTenHS_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsLetterOrDigit(e.KeyChar) && (e.KeyChar != 8 || e.KeyChar != 13))
+                e.Handled = true;
+            if (e.KeyChar == 8)
+                e.Handled = false;
+            if (e.KeyChar >= 'a' && e.KeyChar <= 'z') e.KeyChar = char.ToUpper(e.KeyChar);
+            
+        }
+
+        private void txtMaLop_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) || txtMaLop.Text.Length > 3)
+            {
+                e.Handled = true;
+            } 
+        }
+
+        private void cbxGT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void cbxGT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cbxGT_Click(object sender, EventArgs e)
+        {
+            cbxGT.DisplayMember = "Text";
+            cbxGT.ValueMember = "Value";
+
+            cbxGT.Items.Add(new { Text = "Nữ", Value = "Nữ" });
+            cbxGT.Items.Add(new { Text = "Nam", Value = "Nam" });
         }
     }
 }
