@@ -73,36 +73,6 @@ namespace QLGV_HS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap al {
-            get {
-                object obj = ResourceManager.GetObject("al", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap coach {
-            get {
-                object obj = ResourceManager.GetObject("coach", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap dangnhap {
-            get {
-                object obj = ResourceManager.GetObject("dangnhap", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Delete_Icon {
             get {
                 object obj = ResourceManager.GetObject("Delete_Icon", resourceCulture);
@@ -126,36 +96,6 @@ namespace QLGV_HS.Properties {
         internal static System.Drawing.Bitmap exit_blue_square_glossy_web_icon_on_clip_art__k12900692 {
             get {
                 object obj = ResourceManager.GetObject("exit-blue-square-glossy-web-icon-on-clip-art__k12900692", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap help_icon {
-            get {
-                object obj = ResourceManager.GetObject("help-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hs1 {
-            get {
-                object obj = ResourceManager.GetObject("hs1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hs2 {
-            get {
-                object obj = ResourceManager.GetObject("hs2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,16 +133,6 @@ namespace QLGV_HS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap nhung_phan_mem_quan_ly_truong_hoc_tot_nhat_0 {
-            get {
-                object obj = ResourceManager.GetObject("nhung-phan-mem-quan-ly-truong-hoc-tot-nhat-0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap plus_sign_128 {
             get {
                 object obj = ResourceManager.GetObject("plus-sign-128", resourceCulture);
@@ -213,39 +143,9 @@ namespace QLGV_HS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap quanly {
-            get {
-                object obj = ResourceManager.GetObject("quanly", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap qunaly1 {
-            get {
-                object obj = ResourceManager.GetObject("qunaly1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap save_icon_9 {
             get {
                 object obj = ResourceManager.GetObject("save-icon-9", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tkbicon {
-            get {
-                object obj = ResourceManager.GetObject("tkbicon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
