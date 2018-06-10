@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
+=======
+            this.cbxGT = new System.Windows.Forms.ComboBox();
+>>>>>>> hungdv
             this.dtNS = new System.Windows.Forms.DateTimePicker();
             this.dtgHS = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -52,13 +56,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.cbxGT = new System.Windows.Forms.ComboBox();
+=======
+>>>>>>> hungdv
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgHS)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+<<<<<<< HEAD
+=======
+            this.panel1.BackgroundImage = global::QLGV_HS.Properties.Resources.Edit;
+>>>>>>> hungdv
             this.panel1.Controls.Add(this.cbxGT);
             this.panel1.Controls.Add(this.dtNS);
             this.panel1.Controls.Add(this.dtgHS);
@@ -89,6 +100,20 @@
             this.panel1.Size = new System.Drawing.Size(780, 544);
             this.panel1.TabIndex = 5;
             // 
+<<<<<<< HEAD
+=======
+            // cbxGT
+            // 
+            this.cbxGT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxGT.FormattingEnabled = true;
+            this.cbxGT.Location = new System.Drawing.Point(138, 163);
+            this.cbxGT.Name = "cbxGT";
+            this.cbxGT.Size = new System.Drawing.Size(144, 27);
+            this.cbxGT.TabIndex = 7;
+            this.cbxGT.SelectedIndexChanged += new System.EventHandler(this.cbxGT_SelectedIndexChanged);
+            this.cbxGT.Click += new System.EventHandler(this.cbxGT_Click);
+            // 
+>>>>>>> hungdv
             // dtNS
             // 
             this.dtNS.AllowDrop = true;
@@ -233,6 +258,28 @@
             this.txtMaHS.TabIndex = 2;
             this.txtMaHS.TextChanged += new System.EventHandler(this.txtMaHS_TextChanged);
             this.txtMaHS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaHS_KeyPress);
+<<<<<<< HEAD
+=======
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(32, 291);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(100, 23);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Mã lớp";
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(452, 122);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(100, 23);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Nhập";
+            this.label9.Click += new System.EventHandler(this.label6_Click);
+>>>>>>> hungdv
             // 
             // label7
             // 
@@ -243,16 +290,17 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Mã lớp";
             // 
-            // label9
+            // label6
             // 
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(467, 122);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(100, 23);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Nhập";
-            this.label9.Click += new System.EventHandler(this.label6_Click);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(32, 246);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 23);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Dân tộc";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
+<<<<<<< HEAD
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -302,6 +350,37 @@
             // 
             // label2
             // 
+=======
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(32, 211);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 23);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Ngày sinh";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(32, 167);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Giới tính";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(32, 122);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Tên học sinh";
+            // 
+            // label2
+            // 
+>>>>>>> hungdv
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(32, 81);
             this.label2.Name = "label2";
@@ -321,6 +400,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Quản lý học sinh";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+<<<<<<< HEAD
             // 
             // cbxGT
             // 
@@ -332,6 +412,8 @@
             this.cbxGT.TabIndex = 7;
             this.cbxGT.SelectedIndexChanged += new System.EventHandler(this.cbxGT_SelectedIndexChanged);
             this.cbxGT.Click += new System.EventHandler(this.cbxGT_Click);
+=======
+>>>>>>> hungdv
             // 
             // QuanLyHocSinh
             // 
