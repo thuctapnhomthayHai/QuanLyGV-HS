@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QLGV_HS
 {
-    public partial class frmDangNhap : Form
+    public partial class Dangnhap : Form
     {
-        public frmDangNhap()
+        public Dangnhap()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,7 +22,7 @@ namespace QLGV_HS
             if (txt_username.Text == "admin" && txt_pass.Text == "admin")
             {
                 MessageBox.Show("Đăng nhập thành công!", "Đăng Nhập", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                FrmMain mf = new FrmMain();
+                Main mf = new Main();
                 this.Hide();
                 mf.Show();
             }
@@ -36,7 +31,7 @@ namespace QLGV_HS
                 MessageBox.Show("Đăng nhập thất bại!", "Đăng Nhập", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txt_pass.Text = "";
                 txt_username.Text = "";
-            } 
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
