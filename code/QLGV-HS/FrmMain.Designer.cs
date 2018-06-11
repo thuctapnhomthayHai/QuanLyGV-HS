@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.họcSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xemDanhSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,7 +58,7 @@
             this.hướngDẫnToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(754, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(449, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -116,13 +115,13 @@
             this.tàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.đăngXuấtToolStripMenuItem});
             this.tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
-            this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.tàiKhoảnToolStripMenuItem.Text = "Tài Khoản";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
             // 
             // hướngDẫnToolStripMenuItem
@@ -133,37 +132,30 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(0, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(754, 445);
+            this.panel1.Size = new System.Drawing.Size(449, 376);
             this.panel1.TabIndex = 1;
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(434, 232);
+            this.button4.Location = new System.Drawing.Point(286, 182);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(166, 150);
+            this.button4.Size = new System.Drawing.Size(114, 92);
             this.button4.TabIndex = 3;
             this.button4.Text = "Hướng dẫn";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(149, 232);
+            this.button3.Location = new System.Drawing.Point(52, 182);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(183, 150);
+            this.button3.Size = new System.Drawing.Size(107, 92);
             this.button3.TabIndex = 2;
             this.button3.Text = "Quản lí giáo viên";
             this.button3.UseVisualStyleBackColor = true;
@@ -171,24 +163,18 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Orange;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(434, 60);
+            this.button2.Location = new System.Drawing.Point(286, 42);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(166, 138);
+            this.button2.Size = new System.Drawing.Size(114, 96);
             this.button2.TabIndex = 1;
             this.button2.Text = "Thời Khóa biểu";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(149, 51);
+            this.button1.Location = new System.Drawing.Point(52, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 147);
+            this.button1.Size = new System.Drawing.Size(107, 96);
             this.button1.TabIndex = 0;
             this.button1.Text = "Quản lí học sinh";
             this.button1.UseVisualStyleBackColor = true;
@@ -198,7 +184,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 475);
+            this.ClientSize = new System.Drawing.Size(449, 403);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
