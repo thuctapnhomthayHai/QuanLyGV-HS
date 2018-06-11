@@ -21,3 +21,22 @@ D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Deb
 D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.Properties.Resources.resources
 D:\Tài liệu\Thực tập nhóm_TH14\QL HS-SV\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csproj.GenerateResource.Cache
 D:\Kỳ 6\Thực tập nhóm_TH14\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmGiaoVien.resources
+<<<<<<< HEAD
+=======
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.exe.config
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.exe
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.pdb
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.exe
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.pdb
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csprojResolveAssemblyReference.cache
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmDangNhap.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmGiaoVien.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.FrmMain.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.GUI.QuanLyHocSinh.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.Properties.Resources.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csproj.GenerateResource.Cache
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.QuanLiGiangDay.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.TimKiemGiaoVien.resources
+C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.TimKiemHocSInh.resources
+>>>>>>> hungdv
+>>>>>>> parent of 328246c... Revert "Merge branch 'hungdv'"
