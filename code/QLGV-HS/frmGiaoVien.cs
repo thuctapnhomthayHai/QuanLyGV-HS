@@ -18,7 +18,7 @@ namespace QLGV_HS
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-SNTR6UK;Initial Catalog=QLGV-HS;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=QLGV_HS;Integrated Security=True");
         private void show()
         {
             con.Open();

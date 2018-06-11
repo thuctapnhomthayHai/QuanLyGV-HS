@@ -33,3 +33,16 @@ C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.FrmMa
 C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.GUI.QuanLyHocSinh.resources
 C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.Properties.Resources.resources
 C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csproj.GenerateResource.Cache
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.exe.config
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.exe
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.pdb
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.exe
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.pdb
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmDangNhap.resources
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.frmGiaoVien.resources
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.FrmMain.resources
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.GUI.QuanLyHocSinh.resources
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.Properties.Resources.resources
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.QLGiangDay.resources
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.csproj.GenerateResource.Cache

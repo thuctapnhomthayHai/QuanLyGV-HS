@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cbxGT = new System.Windows.Forms.ComboBox();
             this.dtNS = new System.Windows.Forms.DateTimePicker();
             this.dtgHS = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -52,7 +53,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbxGT = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgHS)).BeginInit();
             this.SuspendLayout();
@@ -89,6 +89,17 @@
             this.panel1.Size = new System.Drawing.Size(780, 544);
             this.panel1.TabIndex = 5;
             // 
+            // cbxGT
+            // 
+            this.cbxGT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxGT.FormattingEnabled = true;
+            this.cbxGT.Location = new System.Drawing.Point(138, 163);
+            this.cbxGT.Name = "cbxGT";
+            this.cbxGT.Size = new System.Drawing.Size(144, 27);
+            this.cbxGT.TabIndex = 7;
+            this.cbxGT.SelectedIndexChanged += new System.EventHandler(this.cbxGT_SelectedIndexChanged);
+            this.cbxGT.Click += new System.EventHandler(this.cbxGT_Click);
+            // 
             // dtNS
             // 
             this.dtNS.AllowDrop = true;
@@ -106,6 +117,7 @@
             this.dtgHS.Name = "dtgHS";
             this.dtgHS.Size = new System.Drawing.Size(777, 204);
             this.dtgHS.TabIndex = 5;
+            this.dtgHS.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgHS_CellContentClick);
             // 
             // comboBox1
             // 
@@ -321,17 +333,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Quản lý học sinh";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cbxGT
-            // 
-            this.cbxGT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxGT.FormattingEnabled = true;
-            this.cbxGT.Location = new System.Drawing.Point(138, 163);
-            this.cbxGT.Name = "cbxGT";
-            this.cbxGT.Size = new System.Drawing.Size(144, 27);
-            this.cbxGT.TabIndex = 7;
-            this.cbxGT.SelectedIndexChanged += new System.EventHandler(this.cbxGT_SelectedIndexChanged);
-            this.cbxGT.Click += new System.EventHandler(this.cbxGT_Click);
             // 
             // QuanLyHocSinh
             // 

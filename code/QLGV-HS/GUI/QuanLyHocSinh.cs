@@ -338,5 +338,10 @@ namespace QLGV_HS.GUI
             cbxGT.Items.Add(new { Text = "Nữ", Value = "Nữ" });
             cbxGT.Items.Add(new { Text = "Nam", Value = "Nam" });
         }
+
+        private void dtgHS_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

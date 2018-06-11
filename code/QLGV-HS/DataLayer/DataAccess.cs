@@ -16,7 +16,7 @@ namespace QLGV_HS.DataLayer
         public static void Connect()
         {
             Con = new SqlConnection();   //Khởi tạo đối tượng
-            Con.ConnectionString = @"Data Source=DESKTOP-SNTR6UK;Initial Catalog=QLGV-HS;Integrated Security=True";
+            Con.ConnectionString = @"Data Source=DESKTOP-9RL4FLL\SQLEXPRESS;Initial Catalog=QLGV_HS;Integrated Security=True";
             Con.Open();//mở kết nối
             //kiểm tra kết nối
             if (Con.State == ConnectionState.Open)
