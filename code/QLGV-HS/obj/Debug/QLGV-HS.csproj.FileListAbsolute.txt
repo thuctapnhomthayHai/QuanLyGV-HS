@@ -40,3 +40,6 @@ C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.TimKi
 C:\Users\tobmo\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV_HS.TimKiemHocSInh.resources
 >>>>>>> hungdv
 >>>>>>> parent of 328246c... Revert "Merge branch 'hungdv'"
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\bin\Debug\QLGV-HS.exe.config
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.exe
+C:\Users\dell\Documents\GitHub\quanlyGV-HS\code\QLGV-HS\obj\Debug\QLGV-HS.pdb
